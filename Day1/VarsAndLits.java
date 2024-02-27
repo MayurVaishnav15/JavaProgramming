@@ -3,6 +3,8 @@ public class VarsAndLits {
         //int a = 5 ; 
         int b = 6 ;
         System.out.println(b);
+        String name = "Mayur vaishnav";
+        System.out.println(name);
     }
     
 }
