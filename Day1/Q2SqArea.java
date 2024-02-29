@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AreaOfSQ {
+public class Q2SqArea{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter side of square : ");
