@@ -18,7 +18,7 @@ public class DataTypes {
          float numb1 = 2.4f;                    //method 1 to solve float error because in java
          System.out.println(numb1);             //decimal number is considered default as float
 
-         float numb2  = (float)2.4;             //This is TYPECASTING where we typeCast default double to float      
+         float numb2  = (float)2.4;           //This is TYPECASTING where we typeCast default double to float      
         System.out.println(numb2);
         
          double numbs = 2.443;
