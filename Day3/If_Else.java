@@ -7,11 +7,9 @@ public class If_Else{
         if(age>18){
             System.out.println("ADULT");
         }
-
         else if(age<18 && age>13) {
             System.out.println("Teenager");
         }
-
         else{
             System.out.println("Child");
            
