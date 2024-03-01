@@ -9,7 +9,7 @@ public class Q3GST {
         System.out.println("Enter price of Eraser");
         float Eraser = sc.nextFloat();
         float gst = ((Pensil + Pen + Eraser)/100)*18;
-        float Total_Bill = (Pensil+Pen+Eraser)+gst;
+        float Total_Bill = (Pensil+Pen+Eraser)+gst;       //Bill with GST of 18%
         System.out.println(Total_Bill);
         sc.close();
 
