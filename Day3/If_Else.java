@@ -1,6 +1,5 @@
-package Day3;
 import java.util.*;
-public class If_Else {
+public class If_Else{
     public static void main(String args[]){
         System.out.print("Enter your age : ");
         Scanner sc = new Scanner(System.in);
