@@ -11,5 +11,4 @@ public class NumTill_n {
         }
         sc.close();
     }
-    
 }
