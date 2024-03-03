@@ -22,6 +22,6 @@ public class Prime {
             else{
                 System.out.println("Prime");
             }
-        }
+        }sc.close();
     } 
 }
