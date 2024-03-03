@@ -1,20 +1,25 @@
+import java.util.*;
 public class ReverseNo {
     public static void main(String[] args) {
-        int a = 10899;
+        System.out.print("Enter Number you want to Reverse : ");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
         int reverse = 0;
-        // for(int i =1;i<=5;i++){
-        //     int b;
-        //     b = a%10;
-        //     reverse = reverse * 10 + b;
-        //     a = a/10;
-            
-        // } System.out.println("The Reverse of a number is : " + reverse);
-        while(a>0){
-            int LastDigit;
-            LastDigit = a%10;
-            reverse = reverse * 10 + LastDigit;
+        for(int i =1;a!=0;){
+            int b;
+            b = a%10;
+            reverse = reverse * 10 + b;
             a = a/10;
+            i = i+1; //to overcome warning of compiler
 
-        }System.out.println(reverse);
+        } System.out.println("The Reverse of a number is : " + reverse);
+          sc.close();
+        // while(a>0){
+        //     int LastDigit;
+        //     LastDigit = a%10;
+        //     reverse = reverse * 10 + LastDigit;
+        //     a = a/10;
+
+        // }System.out.println(reverse);
     }
 }
