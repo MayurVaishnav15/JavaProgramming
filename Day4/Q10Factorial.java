@@ -7,10 +7,7 @@ public class Q10Factorial {
         int factorial = 1;
         for(int i = a;i>0;i--){
             factorial *= i;
-
         } System.out.println("The Factorial Of a given Number is : "+factorial);
         sc.close();
-       
     }
-    
 }
