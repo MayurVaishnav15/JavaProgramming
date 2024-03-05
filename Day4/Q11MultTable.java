@@ -27,4 +27,3 @@ class Q11MultTable{
         sc.close();
     }
 }
-
