@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ParaMfunction {
-    public static int CalculateSum(int firstValue,int SecValue){
+    public static int CalculateSum(int firstValue,int SecValue){     //Formal Parameters
         int sum = firstValue+SecValue;
         return sum;
     }
@@ -12,7 +12,7 @@ public class ParaMfunction {
         System.out.print("Enter second value: ");
         int b = sc.nextInt();
         int sum = 0;
-        sum = CalculateSum(a,b);
+        sum = CalculateSum(a,b);                                    //Arguments OR actual Parameters
         System.out.println("The Sum is: "+sum);
         sc.close();
     }
