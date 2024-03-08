@@ -14,5 +14,7 @@ public class FactorialFunc {
         Scanner sc = new Scanner(System.in);
         int F = sc.nextInt();
         System.out.println(factorialClass(F));
+        sc.close();
     }
+    
 }
