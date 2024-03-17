@@ -16,7 +16,5 @@ public class factorial {
         }
         System.out.println(factorial);
         sc.close();
-
     }
-    
 }
