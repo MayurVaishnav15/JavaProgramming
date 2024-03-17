@@ -13,6 +13,6 @@ public class IncTax {
         else{
             System.out.println("You need to pay Tax of Rupees " + ((income/100)*30));
         }
-    sc.close();
+        sc.close();
     }
 }
