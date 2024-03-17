@@ -11,5 +11,4 @@ public class numericalPyramid {
             System.out.print("\n");
         }sc.close();
     }
-    
 }
