@@ -8,7 +8,7 @@ public class NumbTilln {
         while(counter<=a){
             System.out.print(counter + " ");
             counter++; 
-        }
+                }
         sc.close();
     }
 }
