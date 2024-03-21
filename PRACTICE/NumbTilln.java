@@ -10,4 +10,5 @@ public class NumbTilln {
             counter++; 
         }
         sc.close();
-    }}
+    }
+}
