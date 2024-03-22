@@ -12,8 +12,7 @@ public class factorial {
         // System.out.println(factorial);
         int factorial=1;
         for(int i=number;i>0;i--){
-            factorial*=i;
-        }
+            factorial*=i;}
         System.out.println(factorial);
         sc.close();
     }
