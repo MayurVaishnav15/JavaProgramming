@@ -11,6 +11,5 @@ public class multiTable {
         System.out.println(number+"*"+i+"="+table);
     }sc.close();
     
-    
     }
 }
