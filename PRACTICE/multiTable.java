@@ -10,5 +10,6 @@ public class multiTable {
         table=number*i;
         System.out.println(number+"*"+i+"="+table);
     }sc.close();
+    
     }
 }
