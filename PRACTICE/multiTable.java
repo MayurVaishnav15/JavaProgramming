@@ -8,6 +8,7 @@ public class multiTable {
     int table =1 ;
     for(int i =1 ; i<=10 ; i++){
         table=number*i;
+        
         System.out.println(number+"*"+i+"="+table);
     }sc.close();
 
