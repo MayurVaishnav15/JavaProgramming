@@ -9,5 +9,6 @@ public class NumbTilln {
             System.out.print(counter + " ");
             counter++; }
         sc.close();      
+        
     }
 }
