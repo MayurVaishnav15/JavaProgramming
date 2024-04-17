@@ -13,4 +13,5 @@ public class reversing {
             i = i+1; //to overcome warning of compiler
         } System.out.println("The Reverse of a number is : " + reverse);
         sc.close(); }
+        
 }
