@@ -7,8 +7,7 @@ public class Product {
         System.out.println("Enter number2 :");
         float b = sc.nextFloat();
         float prod = a*b;
-        System.out.println("The product of above numbers is:");
-        System.out.println(prod);
+        System.out.print("The product of above numbers is: " + prod);
         sc.close();
     }
     
