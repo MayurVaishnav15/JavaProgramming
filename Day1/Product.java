@@ -9,6 +9,7 @@ public class Product {
         float prod = a*b;
         System.out.print("The product of above numbers is: " + prod);
         sc.close();
+        
     }
     
 }
