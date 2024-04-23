@@ -12,8 +12,6 @@ public class Q1 {
         System.out.println("The average marks of all subjects is : ");
         System.out.println(avg);
         sc.close();
-
-
     }
     
 }
