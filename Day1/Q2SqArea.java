@@ -8,6 +8,7 @@ public class Q2SqArea{
         System.out.println("Area of square is : ");
         System.out.println(Area);
         sc.close();
+        
     }
 }
     
