@@ -12,8 +12,6 @@ public class Q3GST {
         float Total_Bill = (Pensil+Pen+Eraser)+gst;       //Bill with GST of 18%
         System.out.println(Total_Bill);
         sc.close();
-
-
     }
     
 }
