@@ -10,7 +10,7 @@ public class Q1 {
         float c = sc.nextInt();
         float avg = (a+b+c)/3;
         System.out.println("The average marks of all subjects is : ");
-        System.out.println(avg);
+        System.out.println((int)avg+"%"); //typecasted to int
         sc.close();
     }
     
