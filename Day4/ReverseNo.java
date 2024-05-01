@@ -40,7 +40,7 @@ public class ReverseNo {
         
 
         System.out.println(rev);
-        
+        sc.close();
         
     }
 }
