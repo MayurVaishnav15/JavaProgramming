@@ -9,7 +9,7 @@ public class Continue{
                 continue; //loop exits and restart if number is multiple of 10
             }
             System.out.println("Your number is "+num);         
-            // sc.close(); //remove this line before actually implementing the code : case of exception handling
+            sc.close(); //remove this line before actually implementing the code : case of exception handling
         }
     } 
 }
