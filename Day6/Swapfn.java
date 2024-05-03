@@ -10,7 +10,7 @@ public class Swapfn {
     System.out.println("A = "+a);
     System.out.println("B = "+b);
 
-    }
+    } //The code represent CALL BY VALUE
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
