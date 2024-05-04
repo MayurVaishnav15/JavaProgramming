@@ -1,4 +1,3 @@
-package Day6;
 public class Functions {
 
     public static void Helloworld() {

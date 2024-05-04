@@ -1,4 +1,3 @@
-package Day6;
 import java.util.*;
 public class Swapfn {
     public static void swapFunction(int a, int b){

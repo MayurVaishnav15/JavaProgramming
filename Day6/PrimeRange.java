@@ -1,4 +1,3 @@
-package Day6;
 import java.util.*;
 public class PrimeRange {
     public static boolean Prime(int n){

@@ -1,4 +1,3 @@
-package Day6;
 import java.util.*;
 public class Productfn {
     public static int Multiply(int a, int b){

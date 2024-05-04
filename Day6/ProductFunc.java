@@ -1,4 +1,3 @@
-package  Day6;
 import java.util.*;
 public class ProductFunc{
     public static int Product(int a, int b){

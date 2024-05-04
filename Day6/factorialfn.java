@@ -1,4 +1,3 @@
-package Day6;
 import java.util.*;
 public class factorialfn {
     public static int fact(int a){
