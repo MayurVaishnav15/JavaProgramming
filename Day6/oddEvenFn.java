@@ -13,7 +13,7 @@ public class oddEvenFn {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
         int a = sc.nextInt();
-        // sc.close();
+        sc.close();
         if (isEven(a)) {
             System.out.println("The number is even");
         } else {
