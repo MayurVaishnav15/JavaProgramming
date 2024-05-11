@@ -1,5 +1,3 @@
-package Day8;
-
 import java.util.Scanner;
 
 public class FirstArray {
@@ -17,6 +15,7 @@ public class FirstArray {
         System.out.println("Physics Marks : " + marks[0]);
         System.out.println("Chemistry Marks : " + marks[1]);
         System.out.println("Maths Marks : " + marks[2]);
+        sc.close();
 
         // int numbers[] = {1, 2, 3};
         // String fruits[] = {"apple", "fruits", "orange"};
