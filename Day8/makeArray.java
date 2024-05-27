@@ -10,6 +10,7 @@ public class makeArray {
             Array[i] = sc.nextInt();
             System.out.print(Array[i]+ " ");
         }
+        
         sc.close(); 
     }
 }
