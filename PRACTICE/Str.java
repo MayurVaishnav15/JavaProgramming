@@ -5,5 +5,10 @@ public class Str {
         System.out.println("*****");
         System.out.println("*****");
         System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
     }
 }
