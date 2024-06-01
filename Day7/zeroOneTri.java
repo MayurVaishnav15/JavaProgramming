@@ -21,6 +21,7 @@ public class zeroOneTri {
         zero_One_Triangle(n);
         sc.close();
 
+        
     }
     
 }
