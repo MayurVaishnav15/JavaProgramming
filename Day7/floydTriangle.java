@@ -16,5 +16,6 @@ public class floydTriangle {
         System.out.print("Enter a number : ");
         int n = sc.nextInt();
         FloydTriang(n);
-        sc.close(); }   
+        sc.close(); 
+    }   
 }
