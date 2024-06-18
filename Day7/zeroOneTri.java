@@ -20,6 +20,7 @@ public class zeroOneTri {
         int n = sc.nextInt();
         zero_One_Triangle(n);
         sc.close();
+        
     }
     
 }
