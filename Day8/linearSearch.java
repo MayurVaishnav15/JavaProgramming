@@ -23,7 +23,7 @@ public class linearSearch {
         }
         System.out.println();
         System.out.print("Enter number you want to Search : ");
-        int key = sc.nextInt();
+        // int key = sc.nextInt();
         int index = LinearSearch(0, 0);
         System.out.println(index);
         // if(index==1){
