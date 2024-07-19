@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class linearSearch {
-    public static int LinearSearch(int numbers, int key){
-        for(int i=0;i<10;i++){
-            if(numbers==key){
-                return 1;
+    public static int LinearSearch(int numbers[], int key){
+        for(int i=0;i<=10;i++){
+            if(numbers[i]==key){
+                return i;
             }      
         }
         
@@ -23,15 +23,15 @@ public class linearSearch {
         }
         System.out.println();
         System.out.print("Enter number you want to Search : ");
-        // int key = sc.nextInt();
-        int index = LinearSearch(0, 0);
-        System.out.println(index);
-        // if(index==1){
-        //     System.out.print("found at Index  : ");
-        // }
-        // else{
-        //     System.out.println("Not Found");
-        // }
+        int key = sc.nextInt();
+        int index = LinearSearch(numbers,key);
+        if(index== -1){
+            System.out.println("Not Found");
+           
+        }
+        else{
+            System.out.print("found at Index  : "+index);
+        }
         sc.close();
     }
     
