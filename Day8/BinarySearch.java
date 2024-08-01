@@ -8,7 +8,7 @@ public class BinarySearch { //Binary Search is alwasy applied on sorted Arrays
                 return mid;
              }
              if(Arr[mid]<key){
-                start=start+1;
+                start=mid+1;
              }
              else{
                 end=mid-1;
