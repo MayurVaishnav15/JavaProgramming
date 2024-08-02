@@ -13,7 +13,9 @@ public class reverseArray {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int Arr[]= new int[5];
+        System.out.print("Enter the size of an Array:- ");
+        int n = sc.nextInt();
+        int Arr[]= new int[n];
         System.out.println("Enter your Array:- ");
         for(int i = 0;i<Arr.length;i++){
            Arr[i] = sc.nextInt();
