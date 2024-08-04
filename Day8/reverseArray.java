@@ -5,10 +5,10 @@ public class reverseArray {
         int first =0, last =Arr.length-1;
         while (first<last) {
             int temp = Arr[last];
-        Arr[last]= Arr[first];
-        Arr[first]= temp;
-        first++;
-        last--;
+            Arr[last]= Arr[first];
+            Arr[first]= temp;
+            first++;
+            last--;
         }
     }
     public static void main(String[] args) {
