@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class subArray {
     public static void Arraysubs(int Array[]){
         int ts = 0;
-        int pairsum = 0;
         for(int i = 0;i<Array.length;i++){
             int start = i;
             System.out.println();
@@ -10,7 +9,6 @@ public class subArray {
                 int end = j;
                 for(int k = start;k<=end;k++){
                     System.out.print(Array[k]+", ");
-                    pairsum = pairsum + k;
                 }
                 ts++;
                 System.out.println();
