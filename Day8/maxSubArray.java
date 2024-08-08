@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class maxSubArray {
     public static void maxofArray(int Array[]){
         int currSum = 0;
+        int maxSum = Integer.MIN_VALUE;
         for(int i = 0;i<Array.length;i++){
             int start = i;
             System.out.println();
@@ -13,7 +14,10 @@ public class maxSubArray {
                      currSum += Array[k];
                 }System.out.print("   Sum="+currSum);
                 System.out.println( );
-            }
+                if(maxSum<currSum){ 
+                   maxSum=currSum;
+                }
+            }System.out.println("Sub Array's maximum Sum is "+maxSum);
         }
     }
     public static void main(String[] args) { 
