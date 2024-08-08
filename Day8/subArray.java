@@ -9,9 +9,8 @@ public class subArray {
                 int end = j;
                 for(int k = start;k<=end;k++){
                     System.out.print(Array[k]+", ");
-                }
-                ts++;
-                System.out.println();
+                }System.out.println();
+                 ts++;
             }
         }System.out.println("Total Pairs are "+ts);
     }
