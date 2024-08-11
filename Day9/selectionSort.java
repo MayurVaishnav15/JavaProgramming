@@ -12,7 +12,7 @@ public class selectionSort {
         }System.out.print("The Unsorted array is :-  ");
         for(int i=0;i<unsorted.length;i++){
             System.out.print(unsorted[i]+", ");
-        }
+        }sc.close();
         
 
     }
