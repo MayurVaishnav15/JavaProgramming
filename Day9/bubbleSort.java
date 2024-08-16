@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class bubbleSort {
     public static void SortBubble(int unsorted[]){
-        for(int turn=0;turn<unsorted.length;turn++){
+        for(int turn=0;turn<unsorted.length-1;turn++){
             for(int j=0;j<unsorted.length-1-turn;j++){
                 if(unsorted[j]<unsorted[j+1]){
                     int temp=unsorted[j];
