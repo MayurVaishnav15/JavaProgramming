@@ -10,7 +10,7 @@ public class selectionSort {
                     minPos=j;
                 }
             }
-            int temp = unsorted[minPos];
+            int temp = unsorted[minPos]; 
             unsorted[minPos]=unsorted[i];
             unsorted[i]=temp;
             }System.out.print("The Sorted Array is :-  ");
