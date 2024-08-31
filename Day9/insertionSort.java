@@ -2,13 +2,14 @@ import java.util.Scanner;
 public class insertionSort {
     public static void InsertionSort(int unsorted[]){
         for(int i=1;i<unsorted.length;i++){
-            int key = unsorted[i];
+            int current = unsorted[i];
             int prevIndex= i-1;
-            while (prevIndex>=0 && unsorted[prevIndex]>key) {
+            //finding correct position to insert
+            while (prevIndex>=0 && unsorted[prevIndex]>current) {
                 unsorted[prevIndex+1]=unsorted[prevIndex];
                 prevIndex--;
             } //Insertion now
-            unsorted[prevIndex+1]=key;
+            unsorted[prevIndex+1]=current;
         }System.out.print("The Sorted Array is :-  ");
         for(int i=0;i<unsorted.length;i++){
             System.out.print(unsorted[i]+", ");
