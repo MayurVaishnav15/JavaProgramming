@@ -1,8 +1,23 @@
 import java.util.Scanner;
 
 public class stairCaseSearch {
-    public static void stairCaseSearching(int matrix[][],int key){
-        
+    public static boolean stairCaseSearching(int matrix[][],int key){
+        int row = 0;
+        int col=matrix[0].length-1;
+        while(row < matrix.length && col>=0){
+            if(matrix[row][col]==key){
+                System.out.println("Found at "+"("+row+","+col+")");
+                return true;
+            }
+            else if(key<matrix[row][col]){
+                col--;
+            }
+            else{
+                row++;
+            }
+        }
+        System.out.println("Number Not Found...");
+        return false;
     }
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
@@ -11,7 +26,7 @@ public class stairCaseSearch {
         System.out.print("Enter no. of Columns :- ");
         int m = sc.nextInt();
         int matrix[][]=new int [n][m];
-        System.out.println("Enter your Matrix :-");
+        System.out.println("Enter Sorted Matrix :-");
         for(int i=0;i<matrix.length;i++){
             for(int j=0;j<matrix[0].length;j++){
                 matrix[i][j]= sc.nextInt();
